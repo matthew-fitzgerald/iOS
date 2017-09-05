@@ -398,7 +398,7 @@
 				INFOPLIST_FILE = Squarestock/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.aleksanders.Squarestock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nagra.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -412,7 +412,7 @@
 				INFOPLIST_FILE = Squarestock/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.aleksanders.Squarestock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nagra.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
