@@ -25,7 +25,18 @@
 		28D033331BE0584700FB2A5D /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D033321BE0584700FB2A5D /* Company.m */; };
 		28D033371BE06E8000FB2A5D /* TickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D033361BE06E8000FB2A5D /* TickerTableViewCell.m */; };
 		28D0333B1BE06EE800FB2A5D /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D0333A1BE06EE800FB2A5D /* SearchViewController.m */; };
+		345E3C731F5ECD20001BCD0C /* SquarestockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345E3C721F5ECD20001BCD0C /* SquarestockUITests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		345E3C751F5ECD20001BCD0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28D033001BE03AD500FB2A5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28D033071BE03AD500FB2A5D;
+			remoteInfo = Squarestock;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		287244801BE18E7D00FA2F8F /* Price.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Price.h; sourceTree = "<group>"; };
@@ -63,10 +74,20 @@
 		28D033361BE06E8000FB2A5D /* TickerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TickerTableViewCell.m; sourceTree = "<group>"; };
 		28D033391BE06EE800FB2A5D /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		28D0333A1BE06EE800FB2A5D /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		345E3C701F5ECD20001BCD0C /* SquarestockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquarestockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		345E3C721F5ECD20001BCD0C /* SquarestockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquarestockUITests.swift; sourceTree = "<group>"; };
+		345E3C741F5ECD20001BCD0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		28D033051BE03AD500FB2A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345E3C6D1F5ECD20001BCD0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -106,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				28D0330A1BE03AD500FB2A5D /* Squarestock */,
+				345E3C711F5ECD20001BCD0C /* SquarestockUITests */,
 				28D033091BE03AD500FB2A5D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				28D033081BE03AD500FB2A5D /* Squarestock.app */,
+				345E3C701F5ECD20001BCD0C /* SquarestockUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,6 +221,15 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		345E3C711F5ECD20001BCD0C /* SquarestockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				345E3C721F5ECD20001BCD0C /* SquarestockUITests.swift */,
+				345E3C741F5ECD20001BCD0C /* Info.plist */,
+			);
+			path = SquarestockUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -218,18 +250,43 @@
 			productReference = 28D033081BE03AD500FB2A5D /* Squarestock.app */;
 			productType = "com.apple.product-type.application";
 		};
+		345E3C6F1F5ECD20001BCD0C /* SquarestockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345E3C771F5ECD20001BCD0C /* Build configuration list for PBXNativeTarget "SquarestockUITests" */;
+			buildPhases = (
+				345E3C6C1F5ECD20001BCD0C /* Sources */,
+				345E3C6D1F5ECD20001BCD0C /* Frameworks */,
+				345E3C6E1F5ECD20001BCD0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				345E3C761F5ECD20001BCD0C /* PBXTargetDependency */,
+			);
+			name = SquarestockUITests;
+			productName = SquarestockUITests;
+			productReference = 345E3C701F5ECD20001BCD0C /* SquarestockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		28D033001BE03AD500FB2A5D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Aleksander Skjoelsvik";
 				TargetAttributes = {
 					28D033071BE03AD500FB2A5D = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = 7HUMXY7SD9;
+					};
+					345E3C6F1F5ECD20001BCD0C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = QHDQWE45DU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28D033071BE03AD500FB2A5D;
 					};
 				};
 			};
@@ -247,6 +304,7 @@
 			projectRoot = "";
 			targets = (
 				28D033071BE03AD500FB2A5D /* Squarestock */,
+				345E3C6F1F5ECD20001BCD0C /* SquarestockUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,6 +317,13 @@
 				28D0331B1BE03AD500FB2A5D /* LaunchScreen.storyboard in Resources */,
 				28D033181BE03AD500FB2A5D /* Assets.xcassets in Resources */,
 				28D033161BE03AD500FB2A5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345E3C6E1F5ECD20001BCD0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +352,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		345E3C6C1F5ECD20001BCD0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345E3C731F5ECD20001BCD0C /* SquarestockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		345E3C761F5ECD20001BCD0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28D033071BE03AD500FB2A5D /* Squarestock */;
+			targetProxy = 345E3C751F5ECD20001BCD0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		28D033141BE03AD500FB2A5D /* Main.storyboard */ = {
@@ -417,6 +498,47 @@
 			};
 			name = Release;
 		};
+		345E3C781F5ECD20001BCD0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = QHDQWE45DU;
+				INFOPLIST_FILE = SquarestockUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nagra.OTV-SDK-FPS.SquarestockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Squarestock;
+			};
+			name = Debug;
+		};
+		345E3C791F5ECD20001BCD0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = QHDQWE45DU;
+				INFOPLIST_FILE = SquarestockUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nagra.OTV-SDK-FPS.SquarestockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Squarestock;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -437,6 +559,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		345E3C771F5ECD20001BCD0C /* Build configuration list for PBXNativeTarget "SquarestockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345E3C781F5ECD20001BCD0C /* Debug */,
+				345E3C791F5ECD20001BCD0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
